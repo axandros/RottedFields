@@ -1,0 +1,78 @@
+// Originally in Character
+// Some put structsa in ProjectName.h
+// https://www.youtube.com/watch?v=BQ6Eu3QM7Lg&list=WL&index=46
+
+#include "Engine/DataTable.h"
+
+
+USTRUCT(BlueprintType)
+struct FInventoryItem: public FTableRowBase
+{
+	GENERATED_BODY()
+	
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName ComponentID;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName ProductID;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bDestroyItemA;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bDestroyItemB;
+	
+}
+
+USTRUCT(BlueprintType)
+struct FInventoryItem: public FTableRowBase
+{
+	GENERATED_BODY()
+
+public:
+	FInventoryItem(){
+		Name = FText::FromString("Item");
+		Action = FText::FromString("");
+		Description = FText::FromString("Please add a description");
+		Value = 10;
+	}
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName ItemID;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<class APickup> ItemPickup;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FText Name;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FText Action;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 Value;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UTexture2D* Thumbnail;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FText Description
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<FCraftingInfo> CraftCombination;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bCanBeUsed;
+	
+	bool operator==(const FInventoryItem& Item) const
+	{
+		return Item.ItemID == ItemID;
+	}
+}
+
+-----
+In Game Mode: 
+class UDataTable* ItemDB
+UDataTable* GetItemDB() const;
+// Need to make the DB in the content Browser (Misc>Data Table)
