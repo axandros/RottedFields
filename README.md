@@ -41,6 +41,7 @@ Rotted Fields is the basic camera and movement controls alongside figuring out a
 ### To Be Sorted
 - [ ] Ranged AI
 - [ ] Ranged Combat
+- [ ] Auto Aim/Aim Assist
 - [ ] Grid Inventory
 - [ ] Save System
 - [ ] Camera movement on rails
@@ -51,3 +52,5 @@ Rotted Fields is the basic camera and movement controls alongside figuring out a
 - [ ] First person perspective
 - [ ] Item Crafting
 - [ ] Item Durability
+- [ ] Paper doll clothing/accessory system
+- [ ] 3D item view
