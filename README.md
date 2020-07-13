@@ -18,36 +18,36 @@ Rotted Fields is the basic camera and movement controls alongside figuring out a
 
 ## Full Plan
 ### Part 1
-[X] Player movement - Tank controls
-[X] Fixed camera and camera switching
-[ ] Blender to UE4 workflow documentation
+- [x] Player movement - Tank controls
+- [x] Fixed camera and camera switching
+- [ ] Blender to UE4 workflow documentation
 
 ### Part 2
-[ ] List style inventory
-[ ] Item weights / Carrying capacity for player
-[ ] Lock-and-Key puzzles
-[ ] Dropping items into world
-[ ] Environmental Interaction
-[ ] Simple damage system
+- [ ] List style inventory
+- [ ] Item weights / Carrying capacity for player
+- [ ] Lock-and-Key puzzles
+- [ ] Dropping items into world
+- [ ] Environmental Interaction
+- [ ] Simple damage system
 
 ### Part 3
-[ ] Basic melee AI
-[ ] Simple melee combat system 
+- [ ] Basic melee AI
+- [ ] Simple melee combat system 
 
 ### Part 4
-[ ] Reading notes system
-[ ] Dialogue system
+- [ ] Reading notes system
+- [ ] Dialogue system
 
 ### To Be Sorted
-[ ] Ranged AI
-[ ] Ranged Combat
-[ ] Grid Inventory
-[ ] Save System
-[ ] Camera movement on rails
-[ ] Flashlight
-[ ] Multiple characters
-[ ] NPCs
-[ ] Shop system
-[ ] First person perspective
-[ ] Item Crafting
-[ ] Item Durability
+- [ ] Ranged AI
+- [ ] Ranged Combat
+- [ ] Grid Inventory
+- [ ] Save System
+- [ ] Camera movement on rails
+- [ ] Flashlight
+- [ ] Multiple characters
+- [ ] NPCs
+- [ ] Shop system
+- [ ] First person perspective
+- [ ] Item Crafting
+- [ ] Item Durability
