@@ -41,6 +41,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character Movement")
 		float TurnAmount;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character Movement")
+		float TurnRate;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character Movement")
 		float WalkSpeed = 125.0f;
