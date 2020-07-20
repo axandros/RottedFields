@@ -74,7 +74,7 @@ void AREStorytellerCharacter::MoveForward(float Value)
 void AREStorytellerCharacter::Turn(float Rate)
 {
 	//UE_LOG(LogTemp, Warning, TEXT("Turning %f"), Rate);
-	TurnAmount = Rate*TurnRate;
+	TurnAmount = Rate * TurnRate;
 	AddActorLocalRotation(FRotator(0.0, TurnAmount, 0.0));
 }
 
