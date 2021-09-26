@@ -72,9 +72,3 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-
-# Blender Project
-Blender/*.avi
-Blender/AnimationPreviews/*
-Blender/OldProject/*
-Screenshots/*
