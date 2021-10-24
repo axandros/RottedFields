@@ -72,4 +72,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-Blender/OldProject/Amanda Seyfried.jpg
+
+# Blender Project Files
+Blender/*
+
+# Open Game Art Assets
+Content/Sounds/OpenGameArt/*

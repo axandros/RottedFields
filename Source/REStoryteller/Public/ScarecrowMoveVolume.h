@@ -25,7 +25,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(BlueprintReadOnly, ReadOnly, Category="Scarecrow Volume")
+	UPROPERTY(BlueprintReadOnly, Category="Scarecrow Volume")
 		class UBoxComponent* _trigger;
 
 public:	
