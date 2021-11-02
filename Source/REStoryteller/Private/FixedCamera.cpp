@@ -12,13 +12,15 @@ AFixedCamera::AFixedCamera()
 
 void AFixedCamera::BeginPlay()
 {
+
 	if (StartingCamera) {
 		APlayerController* PlayerController = UGameplayStatics::GetPlayerController(/*(GetWorld()*/ this, 0);
 
 		if (PlayerController)
 		{
-			FViewTargetTransitionParams TransitionParams;
-			PlayerController->SetViewTarget(this, TransitionParams);
+			//FViewTargetTransitionParams TransitionParams;
+			//PlayerController->SetViewTarget(this, TransitionParams);
 		}
 	}
+	
 }
